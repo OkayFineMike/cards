@@ -1,3 +1,7 @@
+<?php
+session_start();
+session_destroy();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +11,8 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <form action="drawtwo.php" method="get">
+        <input type="submit" value="Draw 2 Cards">    
+    </form>
 </body>
 </html>
